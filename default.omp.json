@@ -103,7 +103,7 @@
           "background": "p:blue",
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
-          "template": " {{.Icon}} "
+          "template": " {{.Icon}} {{.Shell}} "
         },
         {
           "type": "kubectl",
