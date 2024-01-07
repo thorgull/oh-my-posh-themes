@@ -7,5 +7,5 @@ sudo curl "https://raw.githubusercontent.com/thorgull/oh-my-posh-themes/main/etc
 ```
 or
 ```
-curl -L https://raw.githubusercontent.com/thorgull/oh-my-posh-themes/main/setup.sh | sh
+curl --fail -L https://raw.githubusercontent.com/thorgull/oh-my-posh-themes/main/setup.sh | sh
 ```
