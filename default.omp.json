@@ -92,7 +92,22 @@
           "background": "p:blue",
           "foreground": "p:white",
           "leading_diamond": "\ue0b6",
-          "template": " {{.Icon}} {{.Shell}} "
+          "template": " {{.Icon}} "
+         },
+        {
+          "type": "shell",
+          "style": "accordion",
+          "background": "p:blue",
+          "foreground": "p:white",
+          "template": "{{ .Name }}"
+        },
+        {
+          "type": "text",
+          "style": "accordion",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "p:black",
+          "background": "p:blue",
+          "template": "{{ if .Env.IN_NIX_SHELL }}\uF313 NIX {{ end }}"
         },
         {
           "type": "kubectl",
